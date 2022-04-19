@@ -53,6 +53,6 @@ def save_blockedsnapshot(change):
 
         # display snapshot that was saved
         snapshot_image.value = image.value
-
+#Controller for the game pad
 controller.buttons[6].observe(save_freesnapshot, names='value')
 controller.buttons[7].observe(save_blockedsnapshot, names='value')
